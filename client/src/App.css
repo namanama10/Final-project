@@ -1,0 +1,122 @@
+:root {
+  --white-color : #FFFFFF ;
+  --black-color : #000000;
+  --font-size-primary : 16px;
+  --card-color: #F7F0F7;
+  --footer-color: #212F3C; 
+}
+
+/* .App {
+  text-align: center;
+} */
+
+.App-header {
+  background-color: var(--white-color);
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); */
+  color: var(--black-color);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container{
+ width: 900px;
+}
+
+.header-sewaKendaraan{
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+}
+
+.judul_list_kendaraan{
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+}
+
+.List-kendaraan {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.List-wrapper {
+  width: 400px;
+  background-color: var(--card-color);
+  color: black;
+}
+
+.List-image {
+  width: 230px;
+  height: 130px;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.List-nama{
+  text-align: center;
+  font-weight: bold;
+}
+
+.List-type_kendaraan{
+  margin-left: 10px;
+
+}
+
+.List-type_transmisi{
+  margin-left: 10px;
+}
+
+.List-warna{
+  margin-left: 10px;
+}
+
+.List-kapasitas{
+  margin-left: 10px;
+}
+
+.imgBanner {
+  width: 100%;
+}
+
+.imgLogo{
+  width: 150px;
+  margin-left: 80px;
+}
+
+.myNavbar{
+  text-align: center;
+}
+
+.nav-item{
+  font-weight: bold;
+  margin-right: 50px;
+  font-size: large;
+}
+
+.myFooter{
+    width : 100%;
+    text-align : center;
+    background-color: var(--footer-color);
+    padding : 0.75rem;
+    color: var(--white-color);
+    margin-top: 50px;
+}
+
+.buttonInfo{
+  margin-left: 115px;
+  margin-bottom: 20px;
+}
