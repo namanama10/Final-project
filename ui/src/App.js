@@ -10,11 +10,19 @@ import {
 
 function App() {
   return (
-      <div className="main-page container-fluid">
-        <Banner></Banner>
-        <NavbarMenu></NavbarMenu>
+    <>
+      <div className="App">
+        <div className='myBanner'>
+          <Banner></Banner>
+        </div>
+        <div className='containerUtama'>
+          <div className='myNavbar'>
+          <NavbarMenu></NavbarMenu>
+          </div>
         <MainContent ></MainContent> 
-      </div>
+        </div>
+        </div>
+      </>
   );
 }
 

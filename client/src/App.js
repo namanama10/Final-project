@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, MainContent, Banner, Footer} from "./components";
+import { Navbar, MainContent, AboutUs, Footer, PilihKami} from "./components";
 
 const App = () => {
   return (
@@ -11,11 +11,14 @@ const App = () => {
         <div className="myNavbar">
           <Navbar></Navbar>
         </div>
-        <div className="myBanner">
-          <Banner></Banner>
-        </div>
         <div className="myMainContent">
           <MainContent></MainContent>
+        </div>
+        <div className="myPilihKami">
+          <PilihKami></PilihKami>
+        </div>
+        <div className="myAbout">
+        <AboutUs></AboutUs>
         </div>
         <div className="myFooter">
           <Footer></Footer>

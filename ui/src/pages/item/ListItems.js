@@ -22,7 +22,7 @@ const ListItems = () => {
   return (
     <>
       <div className='row my-3 text-center'>
-        <div className='col-9 mx-auto'>
+        <div className='col-12 mx-auto'>
           <div className='w-100'>
           <Link to='/items/create' className='btn btn-sm btn-primary my-2'>
               <span className='me-2'>
@@ -31,7 +31,7 @@ const ListItems = () => {
             Add Item
           </Link>
           </div>
-          <div className='w-100'>
+          <div className='w-80'>
             <table className='table table-bordered'>
               <thead>
                 <tr className='table-primary'>

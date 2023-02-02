@@ -1,10 +1,35 @@
 import React from "react";
 import {Link} from 'react-router-dom'
+import LogoRendy from '../images/rendy_7.JPG'
+import { FaTachometerAlt } from 'react-icons/fa';
+import { FaAtlas } from 'react-icons/fa';
+import { FaUser } from 'react-icons/fa';
+import { FaShoppingBag } from 'react-icons/fa';
+
+
 
 const NavbarMenu = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-light">
+    <ul className="nav flex-column">
+      <li className="nav-header">
+      <img className="imgNavbar" src={LogoRendy}/>
+      </li>
+      <hr className='garisImg'/>
+  <li className="nav-item">
+    <Link className="nav-link-navbar1"  to="/"><FaTachometerAlt/> Home Pages</Link>
+  </li>
+  <li className="nav-item">
+    <Link className="nav-link-navbar" to="/items"><FaShoppingBag></FaShoppingBag> Daftar Item</Link>
+  </li>
+  <li className="nav-item">
+    <Link className="nav-link-navbar" to="/brands"><FaAtlas></FaAtlas> Daftar Brand</Link>
+  </li>
+  <li className="nav-item">
+    <Link className="nav-link-navbar" to="/users"><FaUser></FaUser> User</Link>
+  </li>
+</ul>
+      {/* <nav className="navbar navbar-expand-lg bg-light">
         <div className="container">
           <Link className="navbar-brand" to="/">
             Home Pages
@@ -37,15 +62,10 @@ const NavbarMenu = () => {
                   User
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <Link className="nav-link" to="/login">
-                  Login
-                </Link>
-              </li> */}
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
     </>
   );
 };
