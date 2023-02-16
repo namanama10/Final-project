@@ -5,6 +5,7 @@ Introduction
 Final project ini dirancang untuk membuat sebuah website rental kendaraan. 
 
 **exemple pages:**
+<br>
 client pages:
 
 ![1](https://user-images.githubusercontent.com/117552889/219286694-5611e9b9-8f7c-43c3-80d3-b5148ac7e047.png)
