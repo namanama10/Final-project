@@ -70,6 +70,7 @@
   width: 400px;
   background-color: var(--card-color);
   color: black;
+  border-radius: 10px;
 }
 
 .List-image {
@@ -186,6 +187,11 @@
   /* color: #DAEBEB; */
 }
 
+.linkSosmed{
+  margin-left: 10px;
+  text-decoration: none;
+}
+
 
 /* Footer */
 .myFooter{
@@ -194,12 +200,14 @@
   background-color: var(--footer-color);
   padding : 0.75rem;
   color: var(--white-color);
+  position: static;
 }
 
 /* Tentang Kami */
 .header-TentangKami{
     margin: auto;
-    display: flex;      
+    display: flex;
+         
     /* margin-bottom: 50px; */
     
 }
@@ -238,6 +246,100 @@
 
 .kolom p{
   color: var(--white-color);
+}
+
+.CaraoselCaption {
+  color:aqua;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.CaraoselCaption1 {
+  color:#212F3C;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.TextNavbar {
+  /* font-weight: bold; */
+  margin: 0px 5px 0px 5px;
+  text-decoration: none;
+  color:#000000;
+  cursor: pointer;
+}
+
+.TextNavbar:hover{
+  color: grey;
+}
+
+/* responsive */
+@media screen and (max-width: 500px) {
+  .PilihKami-section h5{
+    font-size: medium;
+  }
+
+  .PilihKami-section center{
+    font-size: small;
+  }
+
+  .imgPilihKami{
+    height: 70px;
+  }
+
+  .myAbout{
+    height: 480px;
+  }
+
+  .aboutus-section h5{
+    font-size: small;
+  }
+
+  .aboutus-section p{
+    font-size: small;
+    line-break: auto;
+  }
+
+  .aboutus-section{
+    width: 50%;
+    padding: 10px;
+  }
+
+  .header-TentangKami{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .kolom{
+    margin: 10px 10px;
+  }
+
+  .kolom h1{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #003940;
+  }
+
+  .imgTentangKami1{
+    height: 200px;
+  }
+
+  .header-TentangKami2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .imgTentangKami2{
+    height: 185px;
+  }
+
+  .CaraoselCaption1 {
+    display: none;
+  }
+
+  .CaraoselCaption {
+    display: none;
+  }
 }
 
 

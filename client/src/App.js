@@ -2,14 +2,14 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, MainContent, AboutUs, Footer, PilihKami} from "./components";
+import { NavbarRendy, MainContent, AboutUs, Footer, PilihKami} from "./components";
 
 const App = () => {
   return (
     <div className="App">
       <div className="App-header">
         <div className="myNavbar">
-          <Navbar></Navbar>
+          <NavbarRendy></NavbarRendy>
         </div>
         <div className="myMainContent">
           <MainContent></MainContent>
